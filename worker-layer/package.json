@@ -1,0 +1,28 @@
+{
+  "name": "worker-layer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "phoenix": "node phoenix.js",
+    "orchestrator": "node orchestrator/simpleLoop.js",
+    "setup-db": "node scripts/setupDatabase.js",
+    "setup-phoenix": "node scripts/setupPhoenixDB.js",
+    "dev": "node --watch index.js",
+    "test": "node tests/workers.test.js",
+    "test:api": "node tests/api.test.js",
+    "test:e2e": "node tests/e2e.test.js",
+    "test:advanced": "node tests/advanced-workers.test.js",
+    "test:phoenix": "node tests/phoenix.test.js",
+    "test:recovery": "node tests/phoenix.test.js --recovery",
+    "test:all": "npm run test && npm run test:api && npm run test:e2e && npm run test:advanced"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "uuid": "^10.0.0",
+    "winston": "^3.14.0"
+  }
+}
