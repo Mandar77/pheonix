@@ -352,6 +352,7 @@ Return JSON:
 }
 
 // PLANNER WORKER - Breaks down workflows into tasks
+// PLANNER WORKER - Breaks down workflows into tasks
 export class PlannerWorker extends PhoenixBaseWorker {
   constructor(workerId) {
     super({
@@ -382,7 +383,7 @@ AVAILABLE TASK TYPES:
 
 Create a DAG of tasks with dependencies.
 
-Return JSON:
+Return JSON ONLY. No conversational text.
 {
   "tasks": [
     {
@@ -403,9 +404,30 @@ Return JSON:
     
     let plan;
     try {
+      // 🧠 SMART FIX: Extract JSON from chatty responses
+      let jsonString = response;
+      
+      // 1. Try to extract code block
+      const codeBlockMatch = response.match(/```json([\s\S]*?)```/) || response.match(/```([\s\S]*?)```/);
+      if (codeBlockMatch) {
+        jsonString = codeBlockMatch[1];
+      }
+
+      // 2. Find the first '{' and last '}' to strip outside text
+      const firstBrace = jsonString.indexOf('{');
+      const lastBrace = jsonString.lastIndexOf('}');
+      
+      if (firstBrace !== -1 && lastBrace !== -1) {
+        jsonString = jsonString.substring(firstBrace, lastBrace + 1);
+      }
+
+      plan = JSON.parse(jsonString);
+
       // Try to parse the response directly
       plan = JSON.parse(response.replace(/```json\n?|\n?```/g, '').trim());
     } catch (e) {
+      console.error("Failed to parse Plan JSON:", e);
+      plan = { raw_plan: response, error: "JSON Parse Failed" };
       // If that fails, try to extract JSON from the response
       const jsonMatch = response.match(/\{[\s\S]*"tasks"[\s\S]*\}/);
       if (jsonMatch) {
