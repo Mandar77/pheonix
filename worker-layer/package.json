@@ -14,6 +14,7 @@
     "test:e2e": "node tests/e2e.test.js",
     "test:advanced": "node tests/advanced-workers.test.js",
     "test:phoenix": "node tests/phoenix.test.js",
+    "test:planner": "node tests/planner.test.js",
     "test:recovery": "node tests/phoenix.test.js --recovery",
     "test:all": "npm run test && npm run test:api && npm run test:e2e && npm run test:advanced"
   },

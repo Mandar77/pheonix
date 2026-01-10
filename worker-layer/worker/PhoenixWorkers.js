@@ -399,13 +399,24 @@ Return JSON:
   "estimated_total_time": "..."
 }`;
 
-    const response = await this.callLLM(prompt, 'You are an SRE workflow architect.');
+    const response = await this.callLLM(prompt, 'You are an SRE workflow architect. Return ONLY valid JSON, no markdown or explanation.');
     
     let plan;
     try {
+      // Try to parse the response directly
       plan = JSON.parse(response.replace(/```json\n?|\n?```/g, '').trim());
     } catch (e) {
-      plan = { raw_plan: response };
+      // If that fails, try to extract JSON from the response
+      const jsonMatch = response.match(/\{[\s\S]*"tasks"[\s\S]*\}/);
+      if (jsonMatch) {
+        try {
+          plan = JSON.parse(jsonMatch[0]);
+        } catch (e2) {
+          plan = { raw_plan: response, parse_error: true };
+        }
+      } else {
+        plan = { raw_plan: response, parse_error: true };
+      }
     }
 
     // Auto-create tasks in MongoDB if workflow_id exists
