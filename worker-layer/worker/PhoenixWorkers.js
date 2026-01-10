@@ -352,6 +352,7 @@ Return JSON:
 }
 
 // PLANNER WORKER - Breaks down workflows into tasks
+// PLANNER WORKER - Breaks down workflows into tasks
 export class PlannerWorker extends PhoenixBaseWorker {
   constructor(workerId) {
     super({
@@ -382,7 +383,7 @@ AVAILABLE TASK TYPES:
 
 Create a DAG of tasks with dependencies.
 
-Return JSON:
+Return JSON ONLY. No conversational text.
 {
   "tasks": [
     {
@@ -399,13 +400,32 @@ Return JSON:
   "estimated_total_time": "..."
 }`;
 
-    const response = await this.callLLM(prompt, 'You are an SRE workflow architect.');
+    const response = await this.callLLM(prompt, 'You are an SRE workflow architect. Output ONLY valid JSON.');
     
     let plan;
     try {
-      plan = JSON.parse(response.replace(/```json\n?|\n?```/g, '').trim());
+      // 🧠 SMART FIX: Extract JSON from chatty responses
+      let jsonString = response;
+      
+      // 1. Try to extract code block
+      const codeBlockMatch = response.match(/```json([\s\S]*?)```/) || response.match(/```([\s\S]*?)```/);
+      if (codeBlockMatch) {
+        jsonString = codeBlockMatch[1];
+      }
+
+      // 2. Find the first '{' and last '}' to strip outside text
+      const firstBrace = jsonString.indexOf('{');
+      const lastBrace = jsonString.lastIndexOf('}');
+      
+      if (firstBrace !== -1 && lastBrace !== -1) {
+        jsonString = jsonString.substring(firstBrace, lastBrace + 1);
+      }
+
+      plan = JSON.parse(jsonString);
+
     } catch (e) {
-      plan = { raw_plan: response };
+      console.error("Failed to parse Plan JSON:", e);
+      plan = { raw_plan: response, error: "JSON Parse Failed" };
     }
 
     // Auto-create tasks in MongoDB if workflow_id exists
