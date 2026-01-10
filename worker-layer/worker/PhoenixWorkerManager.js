@@ -1,6 +1,7 @@
 // worker/PhoenixWorkerManager.js
 // Worker Manager aligned with Project Phoenix spec
 import express from 'express';
+import cors from 'cors';
 import { 
   SearcherWorker, 
   SummarizerWorker, 
@@ -28,6 +29,14 @@ export class PhoenixWorkerManager {
   constructor() {
     this.workers = new Map();
     this.app = express();
+    
+    // CORS - Allow frontend (localhost:3000) to access backend
+    this.app.use(cors({
+      origin: ['http://localhost:3000', 'http://127.0.0.1:3000'],
+      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+      allowedHeaders: ['Content-Type', 'Authorization']
+    }));
+    
     this.app.use(express.json());
     this.setupRoutes();
   }
