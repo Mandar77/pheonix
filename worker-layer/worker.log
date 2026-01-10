@@ -1,0 +1,627 @@
+{"level":"info","message":"Worker ResearchAgent connected to MongoDB","timestamp":"2026-01-10T19:53:23.018Z"}
+{"level":"warn","message":"Could not reach orchestrator directly, relying on MongoDB","timestamp":"2026-01-10T19:53:23.649Z"}
+{"level":"info","message":"Worker ResearchAgent registered with capabilities: research, web_search, data_gathering, summarization","timestamp":"2026-01-10T19:53:23.649Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T19:53:25.485Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T19:53:27.439Z"}
+{"level":"info","message":"Worker CodeAgent connected to MongoDB","timestamp":"2026-01-10T19:53:42.225Z"}
+{"level":"warn","message":"Could not reach orchestrator directly, relying on MongoDB","timestamp":"2026-01-10T19:53:42.448Z"}
+{"level":"info","message":"Worker CodeAgent registered with capabilities: code_generation, code_review, debugging, refactoring","timestamp":"2026-01-10T19:53:42.448Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T19:53:42.775Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T19:53:47.404Z"}
+{"level":"info","message":"Worker CodeAgent shut down","timestamp":"2026-01-10T19:53:49.344Z"}
+{"level":"info","message":"Worker AnalysisAgent connected to MongoDB","timestamp":"2026-01-10T19:53:55.375Z"}
+{"level":"warn","message":"Could not reach orchestrator directly, relying on MongoDB","timestamp":"2026-01-10T19:53:56.299Z"}
+{"level":"info","message":"Worker AnalysisAgent registered with capabilities: data_analysis, pattern_recognition, insights, reporting","timestamp":"2026-01-10T19:53:56.299Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T19:53:56.594Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T19:54:00.090Z"}
+{"level":"info","message":"Worker AnalysisAgent shut down","timestamp":"2026-01-10T19:54:00.318Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T19:54:00.991Z"}
+{"level":"info","message":"Worker ResearchAgent shut down","timestamp":"2026-01-10T19:54:01.157Z"}
+{"level":"info","message":"Worker ResearchAgent connected to MongoDB","timestamp":"2026-01-10T20:04:18.338Z"}
+{"level":"warn","message":"Could not reach orchestrator directly, relying on MongoDB","timestamp":"2026-01-10T20:04:18.860Z"}
+{"level":"info","message":"Worker ResearchAgent registered with capabilities: research, web_search, data_gathering, summarization","timestamp":"2026-01-10T20:04:18.860Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:04:19.250Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:04:24.081Z"}
+{"level":"info","message":"Worker CodeAgent connected to MongoDB","timestamp":"2026-01-10T20:04:34.554Z"}
+{"level":"warn","message":"Could not reach orchestrator directly, relying on MongoDB","timestamp":"2026-01-10T20:04:34.687Z"}
+{"level":"info","message":"Worker CodeAgent registered with capabilities: code_generation, code_review, debugging, refactoring","timestamp":"2026-01-10T20:04:34.687Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:04:35.645Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:04:40.403Z"}
+{"level":"info","message":"Worker CodeAgent shut down","timestamp":"2026-01-10T20:04:40.707Z"}
+{"level":"info","message":"Worker AnalysisAgent connected to MongoDB","timestamp":"2026-01-10T20:04:44.496Z"}
+{"level":"warn","message":"Could not reach orchestrator directly, relying on MongoDB","timestamp":"2026-01-10T20:04:44.648Z"}
+{"level":"info","message":"Worker AnalysisAgent registered with capabilities: data_analysis, pattern_recognition, insights, reporting","timestamp":"2026-01-10T20:04:44.648Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:04:44.879Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:04:48.316Z"}
+{"level":"info","message":"Worker AnalysisAgent shut down","timestamp":"2026-01-10T20:04:48.459Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:04:48.580Z"}
+{"level":"info","message":"Worker ResearchAgent shut down","timestamp":"2026-01-10T20:04:48.688Z"}
+{"level":"info","message":"Worker ResearchAgent connected to MongoDB","timestamp":"2026-01-10T20:05:30.544Z"}
+{"level":"warn","message":"Could not reach orchestrator directly, relying on MongoDB","timestamp":"2026-01-10T20:05:30.964Z"}
+{"level":"info","message":"Worker ResearchAgent registered with capabilities: research, web_search, data_gathering, summarization","timestamp":"2026-01-10T20:05:30.965Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:32.000Z"}
+{"level":"info","message":"Worker ResearchAgent polling for tasks...","timestamp":"2026-01-10T20:05:32.000Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:33.211Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:35.077Z"}
+{"level":"info","message":"Worker CodeAgent connected to MongoDB","timestamp":"2026-01-10T20:05:37.246Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:37.249Z"}
+{"level":"warn","message":"Could not reach orchestrator directly, relying on MongoDB","timestamp":"2026-01-10T20:05:37.814Z"}
+{"level":"info","message":"Worker CodeAgent registered with capabilities: code_generation, code_review, debugging, refactoring","timestamp":"2026-01-10T20:05:37.815Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:38.669Z"}
+{"level":"info","message":"Worker CodeAgent polling for tasks...","timestamp":"2026-01-10T20:05:38.669Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:38.948Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:39.087Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:40.219Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:40.369Z"}
+{"level":"info","message":"Worker AnalysisAgent connected to MongoDB","timestamp":"2026-01-10T20:05:41.356Z"}
+{"level":"warn","message":"Could not reach orchestrator directly, relying on MongoDB","timestamp":"2026-01-10T20:05:41.642Z"}
+{"level":"info","message":"Worker AnalysisAgent registered with capabilities: data_analysis, pattern_recognition, insights, reporting","timestamp":"2026-01-10T20:05:41.643Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:41.643Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:42.777Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:42.778Z"}
+{"level":"info","message":"Worker AnalysisAgent polling for tasks...","timestamp":"2026-01-10T20:05:42.778Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:43.215Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:43.313Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:44.503Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:44.707Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:44.708Z"}
+{"level":"info","message":"Worker CommunicationAgent connected to MongoDB","timestamp":"2026-01-10T20:05:45.089Z"}
+{"level":"warn","message":"Could not reach orchestrator directly, relying on MongoDB","timestamp":"2026-01-10T20:05:45.415Z"}
+{"level":"info","message":"Worker CommunicationAgent registered with capabilities: message_routing, context_sharing, coordination, translation","timestamp":"2026-01-10T20:05:45.415Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:45.767Z"}
+{"level":"info","message":"Worker CommunicationAgent polling for tasks...","timestamp":"2026-01-10T20:05:45.767Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:46.165Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:46.166Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:46.166Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:46.401Z"}
+{"level":"info","message":"Worker ResearchAgent executing task: api_test_1768075547631","timestamp":"2026-01-10T20:05:47.636Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:48.475Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:48.475Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:48.475Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:48.476Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:51.004Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:51.132Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:51.133Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:51.133Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:51.349Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:52.171Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:52.382Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:52.383Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:52.383Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:52.478Z"}
+{"level":"info","message":"Task api_test_1768075547631 completed successfully","timestamp":"2026-01-10T20:05:52.478Z"}
+{"level":"info","message":"Worker ResearchAgent connected to MongoDB","timestamp":"2026-01-10T20:05:53.063Z"}
+{"level":"warn","message":"Could not reach orchestrator directly, relying on MongoDB","timestamp":"2026-01-10T20:05:54.769Z"}
+{"level":"info","message":"Worker ResearchAgent registered with capabilities: research, web_search, data_gathering, summarization","timestamp":"2026-01-10T20:05:54.769Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:54.963Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:54.963Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:54.963Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:54.964Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:54.964Z"}
+{"level":"info","message":"Worker ResearchAgent polling for tasks...","timestamp":"2026-01-10T20:05:54.964Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:55.380Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:56.105Z"}
+{"errorLabelSet":{},"level":"error","message":"Polling error: Operation interrupted because client was closed","stack":"MongoClientClosedError: Operation interrupted because client was closed\n    at ConnectionPool.closeCheckedOutConnections (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:260:26)\n    at Server.closeCheckedOutConnections (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\server.js:111:26)\n    at Topology.closeCheckedOutConnections (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\topology.js:222:27)\n    at MongoClient._close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\mongo_client.js:348:24)\n    at MongoClient.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\mongo_client.js:331:35)\n    at ResearchWorker.shutdown (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:249:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/WorkerManager.js:111:7","timestamp":"2026-01-10T20:05:56.426Z"}
+{"level":"info","message":"Worker ResearchAgent shut down","timestamp":"2026-01-10T20:05:56.428Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:56.431Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:56.431Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:56.431Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:56.432Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:57.903Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:57.904Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:57.904Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:05:57.905Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:00.049Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:00.050Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:00.050Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:00.050Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:01.807Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:01.808Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:01.808Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:01.808Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:03.678Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:03.679Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:03.679Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:03.679Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:06.465Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:06.466Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:06.466Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:06.467Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:07.729Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:07.729Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:07.729Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:07.730Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:09.264Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:09.265Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:09.266Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:09.267Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:11.835Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:11.836Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:11.836Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:11.836Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:15.002Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:15.003Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:15.003Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:15.004Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:16.453Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:16.454Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:16.454Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:16.455Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:19.351Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:19.352Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:19.352Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:19.352Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:20.734Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:20.735Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:20.735Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:20.735Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:21.936Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:21.937Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:21.937Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:21.937Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:25.169Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:25.169Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:25.170Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:25.170Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:27.084Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:27.085Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:27.085Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:27.086Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:29.278Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:29.278Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:29.278Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:29.279Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:31.681Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:31.682Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:31.682Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:31.851Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:33.037Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:33.038Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:33.038Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:33.038Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:35.847Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:35.848Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:35.848Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:35.849Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:38.551Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:38.551Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:38.551Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:38.551Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:40.195Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:40.196Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:40.196Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:40.196Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:41.948Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:41.948Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:41.948Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:41.949Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:44.629Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:44.630Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:44.630Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:44.630Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:46.940Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:47.191Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:47.192Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:47.192Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:48.786Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:48.786Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:48.787Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:48.787Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:51.740Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:51.741Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:51.741Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:51.742Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:55.555Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:55.557Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:55.557Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:55.558Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:57.783Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:57.783Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:57.783Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:57.783Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:59.446Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:59.447Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:59.448Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:06:59.448Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:01.169Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:01.170Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:01.170Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:01.170Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:03.117Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:03.118Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:03.118Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:03.118Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:05.586Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:05.586Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:05.587Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:05.587Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:06.948Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:06.949Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:06.949Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:06.950Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:08.921Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:08.921Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:08.922Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:08.922Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:10.486Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:10.486Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:10.487Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:10.488Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:13.272Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:13.273Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:13.274Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:13.275Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:15.163Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:15.163Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:15.163Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:15.164Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:18.783Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:18.783Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:18.783Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:18.783Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:21.107Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:21.107Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:21.107Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:21.107Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:24.384Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:24.384Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:24.384Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:24.385Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:26.405Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:26.405Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:26.406Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:26.407Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:28.734Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:28.734Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:28.734Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:28.734Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:31.605Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:31.605Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:31.606Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:31.606Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:34.614Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:34.615Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:34.615Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:34.616Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:39.212Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:39.213Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:39.213Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:39.213Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:42.376Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:42.377Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:42.377Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:42.377Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:45.135Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:45.136Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:45.136Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:45.137Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:46.455Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:46.456Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:46.456Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:46.456Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:48.793Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:48.793Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:48.793Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:48.794Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:50.169Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:50.169Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:50.169Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:50.170Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:52.768Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:52.769Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:52.769Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:52.769Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:54.295Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:54.296Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:54.296Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:54.297Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:55.926Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:55.926Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:55.926Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:55.927Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:58.617Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:58.618Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:58.618Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:07:58.619Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:02.213Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:02.214Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:02.214Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:02.214Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:04.983Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:04.984Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:04.984Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:04.985Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:08.270Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:09.278Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:09.278Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:09.279Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:11.257Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:11.542Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:11.543Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:11.545Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:14.247Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:16.553Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:16.554Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:16.554Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:16.853Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:18.727Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:18.728Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:18.728Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:18.728Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:20.337Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:20.338Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:20.338Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:20.338Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:23.793Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:23.793Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:23.794Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:23.794Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:25.486Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:25.487Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:25.487Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:25.487Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:27.435Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:27.436Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:27.436Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:27.436Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:29.456Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:29.457Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:29.457Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:29.458Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:31.079Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:31.079Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:31.080Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:31.080Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:33.995Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:33.995Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:33.996Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:33.996Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:36.253Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:36.254Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:36.254Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:36.254Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:37.996Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:37.996Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:37.997Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:37.997Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:39.427Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:39.427Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:39.428Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:39.428Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:42.107Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:42.107Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:42.108Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:42.108Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:43.931Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:43.931Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:43.932Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:43.932Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:45.157Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:45.157Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:45.158Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:45.158Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:48.094Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:48.095Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:48.095Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:48.095Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:49.344Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:49.344Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:49.344Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:49.344Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:51.818Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:51.819Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:51.819Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:51.819Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:53.861Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:53.861Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:53.862Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:53.862Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:55.506Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:55.506Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:55.507Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:55.507Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:57.645Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:57.645Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:57.646Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:57.646Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:59.083Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:59.083Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:59.084Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:08:59.084Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:00.335Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:00.335Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:00.336Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:00.336Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:01.720Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:01.721Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:01.721Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:01.721Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:03.539Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:03.539Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:03.540Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:03.541Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:05.594Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:05.594Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:05.595Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:05.595Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:06.906Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:06.907Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:06.907Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:06.908Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:08.692Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:08.692Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:08.692Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:08.693Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:10.578Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:10.578Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:10.578Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:10.579Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:13.130Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:13.131Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:13.131Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:13.132Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:14.435Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:14.435Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:14.436Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:14.436Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:16.459Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:16.460Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:16.460Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:16.460Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:19.237Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:19.237Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:19.238Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:19.238Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:21.275Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:21.276Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:21.276Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:21.276Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:24.446Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:24.447Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:24.447Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:24.448Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:26.811Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:26.811Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:26.811Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:26.811Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:28.870Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:28.871Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:28.871Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:28.871Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:30.210Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:30.210Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:30.210Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:30.210Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:31.450Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:31.450Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:31.451Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:31.451Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:33.080Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:33.081Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:33.081Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:33.081Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:34.906Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:34.907Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:34.907Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:34.908Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:37.082Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:37.082Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:37.083Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:37.083Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:39.343Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:39.344Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:39.344Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:39.344Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:41.118Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:41.119Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:41.119Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:41.120Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:44.822Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:44.822Z"}
+{"level":"info","message":"Worker ResearchAgent shut down","timestamp":"2026-01-10T20:09:44.959Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:44.960Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:44.961Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:44.961Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:45.082Z"}
+{"level":"info","message":"Worker CodeAgent shut down","timestamp":"2026-01-10T20:09:45.164Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:45.540Z"}
+{"errorLabelSet":{},"level":"error","message":"Polling error: Client must be connected before running operations","stack":"MongoNotConnectedError: Client must be connected before running operations\n    at autoConnect (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:98:19)\n    at executeOperation (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:40:40)\n    at Collection.insertOne (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\collection.js:154:63)\n    at CodeWorker.reportToWatchdog (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:90:51)\n    at CodeWorker.pollForTasks (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:131:20)","timestamp":"2026-01-10T20:09:45.961Z"}
+{"errorLabelSet":{},"level":"error","message":"Polling error: Client must be connected before running operations","stack":"MongoNotConnectedError: Client must be connected before running operations\n    at autoConnect (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:98:19)\n    at executeOperation (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:40:40)\n    at Collection.insertOne (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\collection.js:154:63)\n    at ResearchWorker.reportToWatchdog (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:90:51)\n    at ResearchWorker.pollForTasks (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:131:20)","timestamp":"2026-01-10T20:09:45.963Z"}
+{"level":"info","message":"Worker AnalysisAgent shut down","timestamp":"2026-01-10T20:09:48.210Z"}
+{"beforeHandshake":false,"connectionGeneration":0,"errorLabelSet":{},"level":"error","message":"Polling error: Socket connection establishment was cancelled after 2246","stack":"MongoNetworkError: Socket connection establishment was cancelled after 2246\n    at CancellationToken.cancellationHandler (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\cmap\\connect.js:292:48)\n    at Object.onceWrapper (node:events:622:28)\n    at CancellationToken.emit (node:events:508:28)\n    at ConnectionPool.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:269:32)\n    at Server.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\server.js:122:19)\n    at closeServer (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\topology.js:470:12)\n    at Topology.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\topology.js:231:13)\n    at MongoClient._close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\mongo_client.js:400:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async MongoClient.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\mongo_client.js:332:13)","timestamp":"2026-01-10T20:09:48.210Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:48.632Z"}
+{"level":"warn","message":"Could not reach watchdog directly","timestamp":"2026-01-10T20:09:49.416Z"}
+{"level":"info","message":"Worker CommunicationAgent shut down","timestamp":"2026-01-10T20:09:49.550Z"}
+{"level":"info","message":"Worker ResearchAgent connected to MongoDB","timestamp":"2026-01-10T20:09:50.896Z"}
+{"level":"info","message":"Worker ResearchAgent registered with capabilities: research, web_search, data_gathering, summarization","timestamp":"2026-01-10T20:09:52.658Z"}
+{"level":"info","message":"Worker ResearchAgent polling for tasks...","timestamp":"2026-01-10T20:09:52.958Z"}
+{"level":"info","message":"Worker ResearchAgent shut down","timestamp":"2026-01-10T20:09:57.025Z"}
+{"level":"info","message":"Worker ResearchAgent connected to MongoDB","timestamp":"2026-01-10T20:10:17.297Z"}
+{"level":"info","message":"Worker ResearchAgent registered with capabilities: research, web_search, data_gathering, summarization","timestamp":"2026-01-10T20:10:17.429Z"}
+{"level":"info","message":"Worker ResearchAgent polling for tasks...","timestamp":"2026-01-10T20:10:17.613Z"}
+{"level":"info","message":"Worker CodeAgent connected to MongoDB","timestamp":"2026-01-10T20:10:22.394Z"}
+{"level":"info","message":"Worker CodeAgent registered with capabilities: code_generation, code_review, debugging, refactoring","timestamp":"2026-01-10T20:10:22.586Z"}
+{"level":"info","message":"Worker CodeAgent polling for tasks...","timestamp":"2026-01-10T20:10:22.910Z"}
+{"level":"info","message":"Worker AnalysisAgent connected to MongoDB","timestamp":"2026-01-10T20:10:30.104Z"}
+{"level":"info","message":"Worker AnalysisAgent registered with capabilities: data_analysis, pattern_recognition, insights, reporting","timestamp":"2026-01-10T20:10:30.264Z"}
+{"level":"info","message":"Worker AnalysisAgent polling for tasks...","timestamp":"2026-01-10T20:10:30.557Z"}
+{"level":"info","message":"Worker CommunicationAgent connected to MongoDB","timestamp":"2026-01-10T20:10:32.644Z"}
+{"level":"info","message":"Worker CommunicationAgent registered with capabilities: message_routing, context_sharing, coordination, translation","timestamp":"2026-01-10T20:10:32.855Z"}
+{"level":"info","message":"Worker CommunicationAgent polling for tasks...","timestamp":"2026-01-10T20:10:33.092Z"}
+{"level":"info","message":"Worker ResearchAgent executing task: research_e2e_1768075904233","timestamp":"2026-01-10T20:11:46.096Z"}
+{"level":"info","message":"Task research_e2e_1768075904233 completed successfully","timestamp":"2026-01-10T20:11:50.522Z"}
+{"level":"info","message":"Worker CodeAgent executing task: code_e2e_1768075904233","timestamp":"2026-01-10T20:11:52.112Z"}
+{"level":"info","message":"Task code_e2e_1768075904233 completed successfully","timestamp":"2026-01-10T20:11:57.235Z"}
+{"level":"info","message":"Worker AnalysisAgent executing task: analysis_e2e_1768075904233","timestamp":"2026-01-10T20:12:00.202Z"}
+{"level":"info","message":"Task analysis_e2e_1768075904233 completed successfully","timestamp":"2026-01-10T20:12:03.428Z"}
+{"level":"info","message":"Worker ResearchAgent shut down","timestamp":"2026-01-10T20:36:54.146Z"}
+{"errorLabelSet":{},"level":"error","message":"Polling error: Client must be connected before running operations","stack":"MongoNotConnectedError: Client must be connected before running operations\n    at autoConnect (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:98:19)\n    at executeOperation (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:40:40)\n    at Collection.insertOne (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\collection.js:154:63)\n    at ResearchWorker.reportToWatchdog (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:92:51)\n    at ResearchWorker.pollForTasks (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:135:20)","timestamp":"2026-01-10T20:36:54.326Z"}
+{"level":"info","message":"Worker CodeAgent shut down","timestamp":"2026-01-10T20:36:55.162Z"}
+{"beforeHandshake":false,"connectionGeneration":0,"errorLabelSet":{},"level":"error","message":"Polling error: Socket connection establishment was cancelled after 564","stack":"MongoNetworkError: Socket connection establishment was cancelled after 564\n    at CancellationToken.cancellationHandler (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\cmap\\connect.js:292:48)\n    at Object.onceWrapper (node:events:622:28)\n    at CancellationToken.emit (node:events:508:28)\n    at ConnectionPool.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:269:32)\n    at Server.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\server.js:122:19)\n    at closeServer (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\topology.js:470:12)\n    at Topology.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\topology.js:231:13)\n    at MongoClient._close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\mongo_client.js:400:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async MongoClient.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\mongo_client.js:332:13)","timestamp":"2026-01-10T20:36:55.165Z"}
+{"level":"info","message":"Worker ResearchAgent connected to MongoDB","timestamp":"2026-01-10T20:36:55.908Z"}
+{"level":"info","message":"Worker ResearchAgent registered with capabilities: research, web_search, data_gathering, summarization","timestamp":"2026-01-10T20:36:58.125Z"}
+{"errorLabelSet":{},"level":"error","message":"Polling error: Operation interrupted because client was closed","stack":"MongoClientClosedError: Operation interrupted because client was closed\n    at ConnectionPool.closeCheckedOutConnections (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:260:26)\n    at Server.closeCheckedOutConnections (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\server.js:111:26)\n    at Topology.closeCheckedOutConnections (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\topology.js:222:27)\n    at MongoClient._close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\mongo_client.js:348:24)\n    at MongoClient.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\mongo_client.js:331:35)\n    at AnalysisWorker.shutdown (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:253:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async WorkerManager.shutdown (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/WorkerManager.js:196:7)\n    at async process.<anonymous> (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/index.js:10:3)","timestamp":"2026-01-10T20:37:00.290Z"}
+{"level":"info","message":"Worker ResearchAgent polling for tasks...","timestamp":"2026-01-10T20:37:00.294Z"}
+{"level":"info","message":"Worker AnalysisAgent shut down","timestamp":"2026-01-10T20:37:00.292Z"}
+{"level":"info","message":"Worker CommunicationAgent shut down","timestamp":"2026-01-10T20:37:03.887Z"}
+{"level":"info","message":"Worker CodeAgent connected to MongoDB","timestamp":"2026-01-10T20:37:06.910Z"}
+{"level":"info","message":"Worker CodeAgent registered with capabilities: code_generation, code_review, debugging, refactoring","timestamp":"2026-01-10T20:37:06.993Z"}
+{"level":"info","message":"Worker CodeAgent polling for tasks...","timestamp":"2026-01-10T20:37:07.093Z"}
+{"level":"info","message":"Worker AnalysisAgent connected to MongoDB","timestamp":"2026-01-10T20:37:14.368Z"}
+{"level":"info","message":"Worker AnalysisAgent registered with capabilities: data_analysis, pattern_recognition, insights, reporting","timestamp":"2026-01-10T20:37:14.470Z"}
+{"level":"info","message":"Worker AnalysisAgent polling for tasks...","timestamp":"2026-01-10T20:37:15.660Z"}
+{"level":"info","message":"Worker CommunicationAgent connected to MongoDB","timestamp":"2026-01-10T20:37:17.589Z"}
+{"level":"info","message":"Worker CommunicationAgent registered with capabilities: message_routing, context_sharing, coordination, translation","timestamp":"2026-01-10T20:37:17.686Z"}
+{"level":"info","message":"Worker CommunicationAgent polling for tasks...","timestamp":"2026-01-10T20:37:19.466Z"}
+{"level":"info","message":"Worker PlannerAgent connected to MongoDB","timestamp":"2026-01-10T20:37:22.698Z"}
+{"level":"info","message":"Worker PlannerAgent registered with capabilities: planning, task_decomposition, workflow_design, dependency_analysis","timestamp":"2026-01-10T20:37:23.213Z"}
+{"level":"info","message":"Worker PlannerAgent polling for tasks...","timestamp":"2026-01-10T20:37:23.566Z"}
+{"level":"info","message":"Worker PlannerAgent executing task: planner_test_1768077431672","timestamp":"2026-01-10T20:37:23.614Z"}
+{"level":"info","message":"Worker WebScraperAgent connected to MongoDB","timestamp":"2026-01-10T20:37:26.492Z"}
+{"level":"info","message":"Task planner_test_1768077431672 completed successfully","timestamp":"2026-01-10T20:37:26.747Z"}
+{"level":"info","message":"Worker WebScraperAgent registered with capabilities: web_scraping, url_fetch, content_extraction, link_discovery","timestamp":"2026-01-10T20:37:26.749Z"}
+{"level":"info","message":"Worker WebScraperAgent polling for tasks...","timestamp":"2026-01-10T20:37:26.872Z"}
+{"level":"info","message":"Worker SynthesisAgent connected to MongoDB","timestamp":"2026-01-10T20:37:33.792Z"}
+{"level":"info","message":"Worker SynthesisAgent registered with capabilities: synthesis, aggregation, report_generation, conclusion_drawing","timestamp":"2026-01-10T20:37:34.059Z"}
+{"level":"info","message":"Worker SynthesisAgent polling for tasks...","timestamp":"2026-01-10T20:37:34.157Z"}
+{"level":"info","message":"Worker SynthesisAgent executing task: synthesis_test_1768077446870","timestamp":"2026-01-10T20:37:34.729Z"}
+{"level":"info","message":"Worker MemoryAgent connected to MongoDB","timestamp":"2026-01-10T20:37:37.294Z"}
+{"level":"info","message":"Worker MemoryAgent registered with capabilities: memory_store, memory_retrieve, memory_search, knowledge_graph","timestamp":"2026-01-10T20:37:37.414Z"}
+{"level":"info","message":"Worker MemoryAgent polling for tasks...","timestamp":"2026-01-10T20:37:37.496Z"}
+{"level":"info","message":"Task synthesis_test_1768077446870 completed successfully","timestamp":"2026-01-10T20:37:39.604Z"}
+{"level":"info","message":"Worker ValidatorAgent connected to MongoDB","timestamp":"2026-01-10T20:37:42.312Z"}
+{"level":"info","message":"Worker MemoryAgent executing task: memory_store_1768077459901","timestamp":"2026-01-10T20:37:42.314Z"}
+{"level":"info","message":"Worker ValidatorAgent registered with capabilities: validation, quality_check, fact_check, consistency_check","timestamp":"2026-01-10T20:37:42.382Z"}
+{"level":"info","message":"Worker ValidatorAgent polling for tasks...","timestamp":"2026-01-10T20:37:42.482Z"}
+{"level":"info","message":"Task memory_store_1768077459901 completed successfully","timestamp":"2026-01-10T20:37:44.745Z"}
+{"level":"info","message":"Worker MemoryAgent executing task: memory_retrieve_1768077464739","timestamp":"2026-01-10T20:37:46.390Z"}
+{"level":"info","message":"Task memory_retrieve_1768077464739 completed successfully","timestamp":"2026-01-10T20:37:54.424Z"}
+{"level":"info","message":"Worker ValidatorAgent executing task: validator_test_1768077474423","timestamp":"2026-01-10T20:37:56.447Z"}
+{"level":"info","message":"Task validator_test_1768077474423 completed successfully","timestamp":"2026-01-10T20:37:59.448Z"}
+{"level":"info","message":"Worker WebScraperAgent executing task: scraper_test_1768077481930","timestamp":"2026-01-10T20:38:03.630Z"}
+{"level":"info","message":"Task scraper_test_1768077481930 completed successfully","timestamp":"2026-01-10T20:38:13.115Z"}
+{"level":"info","message":"Worker PlannerAgent executing task: workflow_1768077493110_plan","timestamp":"2026-01-10T20:38:15.010Z"}
+{"level":"info","message":"Task workflow_1768077493110_plan completed successfully","timestamp":"2026-01-10T20:38:21.498Z"}
+{"level":"info","message":"Worker ResearchAgent executing task: workflow_1768077493110_research","timestamp":"2026-01-10T20:38:23.233Z"}
+{"level":"info","message":"Task workflow_1768077493110_research completed successfully","timestamp":"2026-01-10T20:38:31.147Z"}
+{"level":"info","message":"Worker SynthesisAgent executing task: workflow_1768077493110_synthesis","timestamp":"2026-01-10T20:38:33.914Z"}
+{"level":"info","message":"Task workflow_1768077493110_synthesis completed successfully","timestamp":"2026-01-10T20:38:37.121Z"}
+{"level":"info","message":"Worker ValidatorAgent executing task: workflow_1768077493110_validate","timestamp":"2026-01-10T20:38:40.424Z"}
+{"level":"info","message":"Task workflow_1768077493110_validate completed successfully","timestamp":"2026-01-10T20:38:46.603Z"}
+{"level":"info","message":"Worker ResearchAgent shut down","timestamp":"2026-01-10T20:46:42.678Z"}
+{"errorLabelSet":{},"level":"error","message":"Polling error: Client must be connected before running operations","stack":"MongoNotConnectedError: Client must be connected before running operations\n    at autoConnect (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:98:19)\n    at executeOperation (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:40:40)\n    at Collection.insertOne (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\collection.js:154:63)\n    at ResearchWorker.reportToWatchdog (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:92:51)\n    at ResearchWorker.pollForTasks (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:135:20)","timestamp":"2026-01-10T20:46:43.696Z"}
+{"level":"info","message":"Worker CodeAgent shut down","timestamp":"2026-01-10T20:46:46.149Z"}
+{"errorLabelSet":{},"level":"error","message":"Polling error: Client must be connected before running operations","stack":"MongoNotConnectedError: Client must be connected before running operations\n    at autoConnect (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:98:19)\n    at executeOperation (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:40:40)\n    at Collection.insertOne (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\collection.js:154:63)\n    at CodeWorker.reportToWatchdog (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:92:51)\n    at CodeWorker.pollForTasks (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:135:20)","timestamp":"2026-01-10T20:46:47.160Z"}
+{"level":"info","message":"Worker AnalysisAgent shut down","timestamp":"2026-01-10T20:46:49.853Z"}
+{"errorLabelSet":{},"level":"error","message":"Polling error: Client must be connected before running operations","stack":"MongoNotConnectedError: Client must be connected before running operations\n    at autoConnect (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:98:19)\n    at executeOperation (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:40:40)\n    at Collection.insertOne (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\collection.js:154:63)\n    at AnalysisWorker.reportToWatchdog (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:92:51)\n    at AnalysisWorker.pollForTasks (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:135:20)","timestamp":"2026-01-10T20:46:50.457Z"}
+{"level":"info","message":"Worker CommunicationAgent shut down","timestamp":"2026-01-10T20:46:50.662Z"}
+{"errorLabelSet":{},"level":"error","message":"Polling error: Client must be connected before running operations","stack":"MongoNotConnectedError: Client must be connected before running operations\n    at autoConnect (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:98:19)\n    at executeOperation (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:40:40)\n    at Collection.insertOne (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\collection.js:154:63)\n    at CommunicationWorker.reportToWatchdog (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:92:51)\n    at CommunicationWorker.pollForTasks (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:135:20)\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at listOnTimeout (node:internal/timers:567:9)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-01-10T20:46:50.751Z"}
+{"level":"info","message":"Worker PlannerAgent shut down","timestamp":"2026-01-10T20:46:52.214Z"}
+{"beforeHandshake":false,"connectionGeneration":0,"errorLabelSet":{},"level":"error","message":"Polling error: Socket connection establishment was cancelled after 1459","stack":"MongoNetworkError: Socket connection establishment was cancelled after 1459\n    at CancellationToken.cancellationHandler (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\cmap\\connect.js:292:48)\n    at Object.onceWrapper (node:events:622:28)\n    at CancellationToken.emit (node:events:508:28)\n    at ConnectionPool.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:269:32)\n    at Server.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\server.js:122:19)\n    at closeServer (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\topology.js:470:12)\n    at Topology.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\topology.js:231:13)\n    at MongoClient._close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\mongo_client.js:400:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async MongoClient.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\mongo_client.js:332:13)","timestamp":"2026-01-10T20:46:52.216Z"}
+{"errorLabelSet":{},"level":"error","message":"Polling error: Operation interrupted because client was closed","stack":"MongoClientClosedError: Operation interrupted because client was closed\n    at ConnectionPool.closeCheckedOutConnections (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:260:26)\n    at Server.closeCheckedOutConnections (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\server.js:111:26)\n    at Topology.closeCheckedOutConnections (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\sdam\\topology.js:222:27)\n    at MongoClient._close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\mongo_client.js:348:24)\n    at MongoClient.close (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\mongo_client.js:331:35)\n    at WebScraperWorker.shutdown (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:253:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async WorkerManager.shutdown (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/WorkerManager.js:222:7)\n    at async process.<anonymous> (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/index.js:10:3)","timestamp":"2026-01-10T20:46:55.576Z"}
+{"level":"info","message":"Worker WebScraperAgent shut down","timestamp":"2026-01-10T20:46:55.578Z"}
+{"level":"info","message":"Worker SynthesisAgent shut down","timestamp":"2026-01-10T20:46:56.062Z"}
+{"level":"info","message":"Worker MemoryAgent shut down","timestamp":"2026-01-10T20:46:56.572Z"}
+{"errorLabelSet":{},"level":"error","message":"Polling error: Client must be connected before running operations","stack":"MongoNotConnectedError: Client must be connected before running operations\n    at autoConnect (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:98:19)\n    at executeOperation (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:40:40)\n    at Collection.insertOne (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\collection.js:154:63)\n    at SynthesisWorker.reportToWatchdog (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:92:51)\n    at SynthesisWorker.pollForTasks (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:135:20)\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at listOnTimeout (node:internal/timers:567:9)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-01-10T20:46:56.583Z"}
+{"errorLabelSet":{},"level":"error","message":"Polling error: Client must be connected before running operations","stack":"MongoNotConnectedError: Client must be connected before running operations\n    at autoConnect (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:98:19)\n    at executeOperation (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:40:40)\n    at Collection.insertOne (C:\\Users\\manda\\OneDrive - Northeastern University\\Desktop\\Projects\\pheonix\\worker-layer\\node_modules\\mongodb\\lib\\collection.js:154:63)\n    at MemoryWorker.reportToWatchdog (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:92:51)\n    at MemoryWorker.pollForTasks (file:///C:/Users/manda/OneDrive%20-%20Northeastern%20University/Desktop/Projects/pheonix/worker-layer/worker/BaseWorker.js:135:20)","timestamp":"2026-01-10T20:46:56.585Z"}
+{"level":"info","message":"Worker ValidatorAgent shut down","timestamp":"2026-01-10T20:46:56.873Z"}
