@@ -1,146 +1,143 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Terminal } from 'lucide-react';
-import { Task, Workflow, LogEntry, TaskStatus } from './types';
+import { Task, Workflow, LogEntry } from './types';
 import { Header } from './components/Header';
 import { Legend } from './components/Legend';
-import { DAGVisualization } from './graph/DAGVisualization';
+import WorkflowGraph from './components/WorkflowGraph';
 import { LogTimeline } from './timeline/LogTimeline';
-import { useRecoveryTracker } from './hooks/useWorkflow';
-
-// ============ Demo Mode Data ============
-// Remove this section when connecting to real backend
-
-const DEMO_WORKFLOW: Workflow = {
-  _id: 'wf_101',
-  goal: 'Deploy Minecraft Server on AWS',
-  status: 'RUNNING',
-  created_at: new Date().toISOString(),
-  context_summary: 'Provisioning EC2 instance with Docker support',
-};
-
-const createInitialTasks = (): Task[] => [
-  { _id: 'task_1', workflow_id: 'wf_101', type: 'SEARCH', status: 'COMPLETED', dependencies: [], retry_count: 0, max_retries: 3, worker_lock: null, locked_at: null, input_context: {}, output_artifact: null },
-  { _id: 'task_2', workflow_id: 'wf_101', type: 'SEARCH', status: 'COMPLETED', dependencies: [], retry_count: 0, max_retries: 3, worker_lock: null, locked_at: null, input_context: {}, output_artifact: null },
-  { _id: 'task_3', workflow_id: 'wf_101', type: 'SUMMARIZE', status: 'IN_PROGRESS', dependencies: ['task_1', 'task_2'], retry_count: 0, max_retries: 3, worker_lock: 'worker_a1', locked_at: new Date().toISOString(), input_context: {}, output_artifact: null },
-  { _id: 'task_4', workflow_id: 'wf_101', type: 'PROVISION_INFRA', status: 'BLOCKED', dependencies: ['task_3'], retry_count: 0, max_retries: 3, worker_lock: null, locked_at: null, input_context: {}, output_artifact: null },
-  { _id: 'task_5', workflow_id: 'wf_101', type: 'SEARCH', status: 'PENDING', dependencies: ['task_3'], retry_count: 0, max_retries: 3, worker_lock: null, locked_at: null, input_context: {}, output_artifact: null },
-  { _id: 'task_6', workflow_id: 'wf_101', type: 'SUMMARIZE', status: 'BLOCKED', dependencies: ['task_4', 'task_5'], retry_count: 0, max_retries: 3, worker_lock: null, locked_at: null, input_context: {}, output_artifact: null },
+ 
+// ============ API Configuration ============
+const API_BASE = 'http://localhost:3001';
+const WATCHDOG_URL = 'http://localhost:3002'; // If Mrithika sets up watchdog
+ 
+// Available workflows (fetched dynamically in production)
+const AVAILABLE_WORKFLOWS = [
+  { id: 'complex_fix_01', name: 'Deploy Microservice (11 tasks)' },
+  { id: 'wf_planner_test_1768086507229', name: 'REST API Workflow (6 tasks)' },
+  { id: 'wf_planner_test_1768083829673', name: 'FastAPI JWT Auth (6 tasks)' },
 ];
-
+ 
 // ============ Main App ============
-
 function App() {
   // State
-  const [workflow] = useState<Workflow>(DEMO_WORKFLOW);
-  const [tasks, setTasks] = useState<Task[]>(createInitialTasks());
+  const [workflow, setWorkflow] = useState<Workflow | null>(null);
+  const [tasks, setTasks] = useState<Task[]>([]);
   const [logs, setLogs] = useState<LogEntry[]>([]);
   const [orchestratorAlive, setOrchestratorAlive] = useState(true);
   const [isKilling, setIsKilling] = useState(false);
-
-  // Track recovering tasks for animation
-  const recoveringIds = useRecoveryTracker(tasks);
-
-  // Helper to add log entry
-  const addLog = useCallback((level: LogEntry['level'], component: string, message: string, taskId?: string) => {
-    setLogs((prev) => [
-      {
-        timestamp: new Date().toISOString(),
-        level,
-        component,
-        message,
-        workflow_id: 'wf_101',
-        task_id: taskId,
-      },
-      ...prev,
-    ].slice(0, 50)); // Keep last 50 logs
+  const [workflowId, setWorkflowId] = useState<string>('complex_fix_01'); // Use existing workflow with 11 tasks
+ 
+  // Fetch workflow details
+  const fetchWorkflow = useCallback(async () => {
+    try {
+      // Note: Worker layer doesn't have a /workflows endpoint yet
+      // For now, construct from tasks or add endpoint to worker layer
+      const res = await fetch(`${API_BASE}/tasks?workflow_id=${workflowId}`);
+      const tasksData: Task[] = await res.json();
+      setTasks(tasksData);
+ 
+      // Derive workflow status from tasks
+      if (tasksData.length > 0) {
+        const allCompleted = tasksData.every(t => t.status === 'COMPLETED');
+        const anyFailed = tasksData.some(t => t.status === 'FAILED');
+        const anyInProgress = tasksData.some(t => t.status === 'IN_PROGRESS');
+ 
+        setWorkflow({
+          _id: workflowId,
+          goal: 'Deploy Minecraft Server on AWS', // Fetch from DB ideally
+          status: allCompleted ? 'COMPLETED' : anyFailed ? 'FAILED' : anyInProgress ? 'RUNNING' : 'PENDING',
+          created_at: new Date().toISOString(),
+          context_summary: '',
+        });
+      }
+    } catch (err) {
+      console.error('Failed to fetch workflow:', err);
+    }
+  }, [workflowId]);
+ 
+  // Fetch logs from backend
+  const fetchLogs = useCallback(async () => {
+    try {
+      const res = await fetch(`${API_BASE}/logs?workflow_id=${workflowId}&limit=50`);
+      const logsData: LogEntry[] = await res.json();
+      setLogs(logsData);
+    } catch (err) {
+      console.error('Failed to fetch logs:', err);
+    }
+  }, [workflowId]);
+ 
+  // Check orchestrator health
+  const checkHealth = useCallback(async () => {
+    try {
+      const res = await fetch(`${API_BASE}/health`);
+      const data = await res.json();
+      setOrchestratorAlive(data.status === 'healthy');
+    } catch {
+      setOrchestratorAlive(false);
+    }
   }, []);
-
-  // Demo: Simulate task progression
+ 
+  // Poll for updates
   useEffect(() => {
-    if (!orchestratorAlive) return;
-
+    fetchWorkflow();
+    fetchLogs();
+    checkHealth();
+ 
     const interval = setInterval(() => {
-      setTasks((prev) => {
-        const updated = JSON.parse(JSON.stringify(prev)) as Task[];
-
-        // Find and complete an in-progress task (randomly)
-        const inProgress = updated.find((t) => t.status === 'IN_PROGRESS');
-        if (inProgress && Math.random() > 0.6) {
-          inProgress.status = 'COMPLETED';
-          inProgress.worker_lock = null;
-
-          // Unblock dependent tasks
-          updated.forEach((t) => {
-            if (t.status === 'BLOCKED' && t.dependencies.includes(inProgress._id)) {
-              const allDepsDone = t.dependencies.every(
-                (depId) => updated.find((x) => x._id === depId)?.status === 'COMPLETED'
-              );
-              if (allDepsDone) {
-                t.status = 'PENDING';
-              }
-            }
-          });
-
-          addLog('INFO', 'Worker', `✓ Task ${inProgress._id} completed`, inProgress._id);
-        }
-
-        // Start a pending task if nothing is in progress
-        const pending = updated.find((t) => t.status === 'PENDING');
-        const hasInProgress = updated.some((t) => t.status === 'IN_PROGRESS');
-        
-        if (pending && !hasInProgress) {
-          pending.status = 'IN_PROGRESS';
-          pending.worker_lock = `worker_${Math.random().toString(36).slice(2, 5)}`;
-          pending.locked_at = new Date().toISOString();
-          
-          addLog('INFO', pending.worker_lock, `→ Started ${pending._id} (${pending.type})`, pending._id);
-        }
-
-        return updated;
-      });
+      fetchWorkflow();
+      fetchLogs();
+      checkHealth();
     }, 2000);
-
+ 
     return () => clearInterval(interval);
-  }, [orchestratorAlive, addLog]);
-
+  }, [fetchWorkflow, fetchLogs, checkHealth]);
+ 
   // Kill orchestrator handler
-  const handleKill = useCallback(() => {
+  const handleKill = useCallback(async () => {
     setIsKilling(true);
+ 
+    try {
+      // If Mrithika's watchdog is running
+      await fetch(`${WATCHDOG_URL}/admin/kill`, { method: 'POST' });
+    } catch {
+      // Fallback: Just update UI state
+      console.log('Watchdog not available - simulating kill');
+    }
+ 
     setOrchestratorAlive(false);
-
-    addLog('ERROR', 'Admin', '🔥 KILL SIGNAL SENT - Orchestrator terminated!');
-
-    // Mark in-progress tasks as FAILED
-    setTasks((prev) =>
-      prev.map((t) =>
-        t.status === 'IN_PROGRESS'
-          ? { ...t, status: 'FAILED' as TaskStatus, worker_lock: null }
-          : t
-      )
-    );
-
-    setTimeout(() => setIsKilling(false), 500);
-  }, [addLog]);
-
-  // Recovery handler (Phoenix Protocol)
-  const handleRecover = useCallback(() => {
-    addLog('WARN', 'Watchdog', '🔄 Phoenix Protocol initiated - Recovering failed tasks...');
-
-    // Mark failed tasks as PENDING with incremented retry count
+    setIsKilling(false);
+ 
+    // Add local log for immediate feedback
+    setLogs(prev => [{
+      timestamp: new Date().toISOString(),
+      level: 'ERROR',
+      component: 'Admin',
+      message: '🔥 KILL SIGNAL SENT - Orchestrator terminated!',
+      workflow_id: workflowId,
+      task_id: undefined,
+    }, ...prev]);
+  }, [workflowId]);
+ 
+  // Recovery handler
+  const handleRecover = useCallback(async () => {
+    setLogs(prev => [{
+      timestamp: new Date().toISOString(),
+      level: 'WARN',
+      component: 'Watchdog',
+      message: '🔄 Phoenix Protocol initiated - Recovering...',
+      workflow_id: workflowId,
+      task_id: undefined,
+    }, ...prev]);
+ 
+    // Recovery happens automatically when orchestrator restarts
+    // The orchestrator's recovery loop will reset stuck tasks
     setTimeout(() => {
-      setTasks((prev) =>
-        prev.map((t) =>
-          t.status === 'FAILED' && t.retry_count < t.max_retries
-            ? { ...t, status: 'PENDING' as TaskStatus, retry_count: t.retry_count + 1 }
-            : t
-        )
-      );
-
       setOrchestratorAlive(true);
-      addLog('INFO', 'Orchestrator', '✅ Recovery complete - Tasks rescheduled');
+      fetchWorkflow();
+      fetchLogs();
     }, 2000);
-  }, [addLog]);
-
+  }, [workflowId, fetchWorkflow, fetchLogs]);
+ 
   return (
     <div className="h-screen bg-gray-950 text-white flex flex-col overflow-hidden">
       {/* Header */}
@@ -152,15 +149,36 @@ function App() {
         onKill={handleKill}
         onRecover={handleRecover}
       />
-
+ 
+      {/* Workflow Selector */}
+      <div className="bg-gray-900 border-b border-gray-800 px-4 py-2 flex items-center gap-3">
+        <label className="text-sm text-gray-400">Workflow:</label>
+        <select
+          value={workflowId}
+          onChange={(e) => setWorkflowId(e.target.value)}
+          className="bg-gray-800 text-white px-3 py-1.5 rounded border border-gray-700 text-sm focus:outline-none focus:border-orange-500"
+        >
+          {AVAILABLE_WORKFLOWS.map((wf) => (
+            <option key={wf.id} value={wf.id}>
+              {wf.name}
+            </option>
+          ))}
+        </select>
+        <span className="text-xs text-gray-500 font-mono">{workflowId}</span>
+      </div>
+ 
       {/* Main content */}
       <div className="flex-1 flex overflow-hidden">
         {/* DAG visualization area */}
-        <div className="flex-1 relative overflow-auto p-4 bg-gray-950">
-          <DAGVisualization tasks={tasks} recoveringIds={recoveringIds} />
+        <div className="flex-1 relative overflow-hidden p-4 bg-gray-950">
+          <WorkflowGraph
+            workflowId={workflowId}
+            apiUrl={`${API_BASE}/tasks`}
+            pollInterval={2000}
+          />
           <Legend />
         </div>
-
+ 
         {/* Logs sidebar */}
         <div className="w-72 lg:w-80 bg-gray-900 border-l border-gray-800 flex flex-col">
           <div className="px-3 py-2 border-b border-gray-800 flex items-center gap-2">
@@ -174,5 +192,5 @@ function App() {
     </div>
   );
 }
-
+ 
 export default App;
