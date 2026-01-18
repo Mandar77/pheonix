@@ -271,17 +271,6 @@ npm run test:phoenix
 
 ---
 
-## 👥 Team
-
-| Member | Role | Responsibilities |
-|--------|------|------------------|
-| **Mandar** | Worker Layer | AI workers, distributed locking, task execution |
-| **Aarzoo** | Orchestrator | Dependency resolution, recovery logic, workflow management |
-| **Mrithika** | Watchdog | Process supervision, kill switch, resurrection |
-| **Anjali** | Frontend | DAG visualization, real-time updates, UI/UX |
-
----
-
 ## 📁 Project Structure
 
 ```
