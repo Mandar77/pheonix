@@ -313,7 +313,7 @@ MIT License — Built with 🔥 at Cerebral Valley Hackathon 2026
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Rising%20from%20the%20Ashes-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Rising%20from%20the%20Ashes-orange?style=for-the-badge"/>
 </p>
 
 <p align="center">
